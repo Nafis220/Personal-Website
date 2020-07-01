@@ -1,0 +1,231 @@
+*{margin:0;padding:0}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+section
+{
+height:600px	;
+overflow:hidden
+}
+/*----------------------------First Section-----------------------------*/
+#first-section
+{
+	  background-image: url('images/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contant
+{
+	width:35%;
+	margin:5%;
+	float:left;
+	padding:2%;
+	overflow:hidden
+}
+.contant img 
+{
+	width:100%
+	
+}
+h3
+{
+	font-size:30px;
+	padding-bottom:10px
+}
+h2
+{
+	color:#EC4E8D;
+	font-size:42px;
+	padding-bottom:40px
+	
+}
+.left_side
+{
+	padding-top:180px
+}
+#first-section p 
+{
+	padding-bottom:20px;
+	line-height:1.8em;
+}
+#first-section a 
+{
+	padding: 11px 24px;
+	display:inline-block;
+	background-image: linear-gradient(to right, #EC4F91 , #EC4C76);
+	text-decoration:none;
+	color:white;
+	border-radius:5px
+	
+}
+
+/*----------------------------Biography Section-----------------------------*/
+
+#biography-section
+{ 
+background-image: url('images/biography-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+#biography-section p 
+{
+	padding-bottom:30px;
+	line-height:1.8em;
+	
+}
+
+#biography-section a 
+{
+	padding: 11px 24px;
+	display:inline-block;
+	background-image: linear-gradient(to right, #EC4F91 , #EC4C76);
+	text-decoration:none;
+	color:white;
+	border-radius:5px
+	
+}
+
+/*----------------------------Work Section-----------------------------*/
+#latest-work
+{
+margin-top:70px	;
+	background-image: url('images/latest-work-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
+}
+#latest-work h2 
+{
+	text-align:center;
+	font-size:35px;
+	color:black
+}
+.work_img
+{
+	margin-left:52px;
+	margin-top:20px
+}
+.work_img img 
+{
+	width:30%;
+	float:left;
+	margin-left:1.5%
+	
+}
+
+
+
+/*----------------------------footer Section-----------------------------*/
+
+#footer
+{
+	background-image: url('images/footer-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;	
+}
+#footer h2 
+{
+		text-align:center;
+	font-size:35px;
+	color:black
+	
+}
+
+.footer-parts
+{
+	text-align:justify;
+	width:40%;
+	margin: 30px auto
+}
+.footer-parts h5, p, h4
+{
+	text-align:center
+}
+.footer-parts h5
+{
+	line-height:1em;
+	
+}
+.footer-parts p
+{
+	font-size:12px;
+	padding-top:7px;
+	
+}
+.footer-box
+{
+    padding: 44px 40px;
+    background-image: linear-gradient(to left, #EC4F91 , #EC4C76);
+    width: 35%;
+    margin: 60px auto;
+    height: 70px;
+    border-radius: 10px;
+color:white
+	}
+/*----------------------------Comment Box-----------------------------*/
+.comment-box
+{
+	margin:0 auto;
+	width:600px;
+	border-left: 7px solid;
+	border-image:linear-gradient(to right, #EC4F91 , #EC4C76);
+	border-image-slice:1;
+	box-shadow: 2px 2px 30px gray;
+	border-radius:5px;
+	padding:15px 10px;
+}
+.comment-box h2 
+{
+	text-align:center;
+	margin-bottom: 15px;
+	
+	
+}
+textarea
+{
+	height:20px;
+	width:100%;
+	border:none;
+	border-bottom:2px solid #aaa;
+	margin-bottom:10px
+}
+input[type="submit"], button
+{
+	padding:10px 15px;
+	border:none;
+	border-radius:5px;
+	text-transform:uppercase;
+	font-weight:bold ;
+	cursor:pointer
+	
+}
+input[type="submit"]
+{
+	color:#fff;
+	
+	background-image: linear-gradient(to right , #7dba2d, #c0c938)
+}
+input[type="submit"]:hover
+{
+	background-image: linear-gradient(to right, #EC4F91 , #EC4C76);
+}
+button
+{
+	color:#333;
+}
+.copy-right
+{
+	    padding-top: 100px;
+    margin-bottom: 30px;
+	
+}
+
+
+
+
+
